@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -mugo+x my_dirOscar
+mkdir -m775 my_dirOscar
