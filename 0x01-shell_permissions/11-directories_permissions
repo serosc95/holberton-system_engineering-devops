@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -m775 my_dirOscar
+mkdir -m751 my_dirOscar
