@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -m751 my_dirOscar
+chmod -R ugo+x -/./
