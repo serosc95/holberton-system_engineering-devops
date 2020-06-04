@@ -1,2 +1,2 @@
 #!/bin/bash
-ksmana
+sudo chown --from=guillaume betty hello
