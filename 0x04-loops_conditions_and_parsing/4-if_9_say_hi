@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# displays "Holberton School" 10 times
+# displays "Holberton School" 10 times and hi
 i=0
 while [ $i -lt 10 ]
 do
