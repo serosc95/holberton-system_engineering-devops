@@ -20,7 +20,7 @@ if __name__ == "__main__":
     user_name = json_r_user.get("username")
     csv_fname = user_id + ".csv"
     with open(csv_fname, 'w+') as fd_csv:
-        csv_writer = csv.writer(fd_csv, quoting=csv.QUOTE_NONNUMERIC)
+        csv_writer = csv.writer(fd_csv, quoting=csv.QUOTE_ALL)
         for task in json_r_todos:
             csv_writer.writerow([user_id,
                                 user_name,
