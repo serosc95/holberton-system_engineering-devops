@@ -2,9 +2,10 @@
 """Exports data in the CSV format.
 """
 
+import csv
 import requests
 from sys import argv
-import csv
+
 
 if __name__ == "__main__":
     user_id = argv[1]
