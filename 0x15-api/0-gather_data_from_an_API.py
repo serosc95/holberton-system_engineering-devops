@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+"""Exports data in the CSV format.
+"""
 
 import requests
 from sys import argv
+
 
 if __name__ == "__main__":
     user_id = argv[1]
